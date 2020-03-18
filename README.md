@@ -9,3 +9,5 @@ The scripts use the following Python modules:
 - ```pdf2image``` A converter from pdf to image files. Unfortunately the pdfs of filings on Companies House are actually just scanned images, which stops straightforward text extraction using modules like '''pdfminer'''. So instead this module is used to convert the pages of pdfs to images for later text extraction
 - ```pytesseract``` An optical character recognition tool for Python. It's used to extract text from Company House filings which is then searched for evidence of tech giants  
 - ```BeautifulSoup``` A web-scraping module. This is used to detect insolvencies on the Gazette - this web page is used instead of the Companies House API because insolvencies appear much later on the latter
+
+Code currently running on PythonaAnywhere.com. By Kim Darrah.
